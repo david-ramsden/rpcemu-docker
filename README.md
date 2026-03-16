@@ -78,7 +78,7 @@ You can replace the entire HostFS disc by specifying a mount point at `/riscos`,
 docker run -it --init -v $PWD:/riscos --rm -p 5901:5901 gerph/rpcemu-3.7
 ```
 
-### RISC OS 5 beta (nightly) builds
+### Testing RISC OS 5 beta (nightly) builds
 
 When using the `rpcemu-5` image, passing in an environment variable of `RO5_BETA` with a value of `1` will download and install the beta (nightly) builds of the RISC OS 5 ROM and HardDisc4 automatically when the container starts, eg:
 

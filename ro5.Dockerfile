@@ -54,6 +54,7 @@ RUN export DEBIAN_FRONTEND="noninteractive" ; \
                         libqt5multimedia5-plugins \
                         xcvt x11-utils wmctrl \
                         x11-xserver-utils \
+                        wget ca-certificates unzip rsync \
                      && \
     rm -rf /var/lib/apt/lists/*
 
